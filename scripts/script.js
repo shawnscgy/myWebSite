@@ -8,6 +8,8 @@ let skiText = document.getElementById("skiText");
 let expText = document.getElementById("expText");
 let eduText = document.getElementById("eduText");
 
+let footerElement = document.getElementById("footer");
+
 // Summary
 let sumElement = document.getElementById("sum");
 sumElement.addEventListener("click", turnToSum);
@@ -19,7 +21,6 @@ function turnToSum() {
 let skiElement = document.getElementById("ski");
 skiElement.addEventListener("click", turnToSki);
 function turnToSki() {
-  let footerElement = document.getElementById("footer");
   footerElement.style.marginTop = "20px";
   wholePage.innerHTML = skiText.innerHTML;
 }
@@ -42,5 +43,6 @@ function turnToEdu() {
 let maiElement = document.getElementById("mai");
 maiElement.addEventListener("click", turnToMai);
 function turnToMai() {
+  footerElement.style.marginTop = "0px";
   wholePage.innerHTML = originalPage;
 }
