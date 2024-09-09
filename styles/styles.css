@@ -32,6 +32,7 @@ a:link {
 
 a:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 main {
@@ -74,10 +75,15 @@ img {
 }
 
 .bullet {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
 }
-
+.bullet div {
+  margin-right: 120px;
+}
+.summarypara {
+  line-height: 20px;
+}
 table {
   border: solid black 1px;
   border-collapse: collapse;
@@ -110,8 +116,32 @@ li {
   text-align: justify;
   line-height: 18px;
 }
+.sait {
+  color: rgb(18, 104, 146);
+  font-weight: bolder;
+  text-decoration: none;
+}
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 23px;
   padding: 20px 20px;
   background-color: rgb(206, 174, 106);
+}
+.link {
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+  color: rgb(18, 104, 146);
+  font-weight: bolder;
+  text-decoration: none;
+}
+.website {
+  margin-right: 120px;
+}
+a:visited {
+  color: rgb(18, 104, 146);
 }
