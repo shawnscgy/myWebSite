@@ -138,9 +138,10 @@ footer {
   flex-direction: row;
   color: rgb(18, 104, 146);
   font-weight: bolder;
-  text-decoration: none;
 }
 .website {
+  display:inline-block;
+  margin-bottom: 12px;
   margin-right: 120px;
 }
 a:visited {
