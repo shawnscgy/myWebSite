@@ -10,14 +10,15 @@
   <body>
     <header><h2>SHAWN'S RESUMÉ</h2></header>
     <nav>
-      <a scr="index.html" id="mai"><strong>Main</strong></a>
+      <a id="mai"><strong>Main</strong></a>
       <a id="sum"><strong>Summary</strong></a>
       <a id="ski"><strong>Skills</strong></a>
-      <a id="exp"><strong>Experience</strong></a>
       <a id="edu"><strong>Education</strong></a>
+      <a id="pro"><strong>Projects</strong></a>
+      <a id="exp"><strong>Experience</strong></a>
     </nav>
     <main id="main">
-      <div class="firstheading"><h1>Shawn S</h1></div>
+      <div><h1>Shawn S</h1></div>
       <p class="contacts">
         shawn.scgy@gmail.com | 587-299-7625 | Calgary, AB T2M 4G3
       </p>
@@ -26,108 +27,247 @@
       </p>
 
       <div class="content" id="alternate">
-        <div id="sumText">
+        <!-- Summary -->
+        <div class="tooClose" id="sumText">
           <h2 id="sumHeader">Summary</h2>
           <p class="summarypara">
-            Have been engaged in online store management and promotion for 8 years. Fully understood merchants' needs of software with fewer bugs, easier operation, and lower learning cost to carry out business activities. Have a passion of studying software, especially improving clients’ pain points of using applications and web pages. This unfair advantage motivated me to return to school to pursue my genuine interests. I am currently studying software development at SAIT and looking for a software development internship to apply my skills and knowledge to real-world projects.
+            Experienced in the fast-paced environment of online promotion,
+            demonstrating high efficiency, practicality, mental resilience, and
+            strong problem-solving skills. Completed the Software Development
+            diploma program at SAIT, demonstrating proficiency in modern
+            programming languages and database management. Seeking an internship
+            or junior developer position to contribute enthusiasm and skills to
+            the tech industry.
           </p>
         </div>
+        <!-- Skills -->
         <div id="skiText">
-        <div><h2 class="tooClose">Skills</h2></div>
+          <div><h2 class="tooClose">Skills</h2></div>
 
-        <ul class="bullet">
-          <div class="bulletp1">
-            <li>Team Collaboration</li>
-            <li>Critical Thinking</li>
+          <div class="bullet">
+            <div>
+              <p>● Team Collaboration</p>
+              <p>● Critical Thinking</p>
+            </div>
+            <div>
+              <p>● Fast Learning</p>
+              <p>● Mental Resilience</p>
+            </div>
           </div>
-          <div class="bulletp2">
-            <li>Fast Learning</li>
-            <li>Mental Resilience</li>
+          <div class="table">
+            <table>
+              <tr>
+                <th>JavaScript</th>
+                <th>TypeScript</th>
+                <th>Node</th>
+                <th>REST</th>
+                <th>Java</th>
+                <th>C#</th>
+              </tr>
+              <tr>
+                <th>React</th>
+                <th>React-Native</th>
+                <th>Next</th>
+                <th>AWS</th>
+                <th>PL/SQL</th>
+                <th>MAUI</th>
+              </tr>
+            </table>
           </div>
-        </ul>
-        <div>
-          <table>
-            <tr>
-              <th>HTML</th>
-              <th>CSS</th>
-              <th>JavaScript</th>
-              <th>TypeScript</th>
-              <th>Java</th>
-              <th>C#</th>
-            </tr>
-            <tr>
-              <th>React</th>
-              <th>Tailwind</th>
-              <th>Next</th>
-              <th>React-Native</th>
-              <th>PL/SQL</th>
-              <th>MAUI</th>
-            </tr>
-          </table>
         </div>
       </div>
-      <div id="expText">
-        <h2 class="tooClose">Experience</h2>
-        <ol>
-          <li>
-            <strong>Restaurant Server, 2024</strong>
-            <div><em>David Thompson Resort (Canada)</em></div>
-            <div>
-              Accurately took orders to customer specifications and processed payments.
-              Collaborated with kitchen staff including communicating special requests and dietary restrictions.
-              Provided customer service in a fast-paced environment keeping a clean and organized workplace and ensuring a positive dining experience.
-              A part-time job that was more than two weeks between two semesters.
 
-            </div>
-          </li>
-          <li>
-            <strong>Online Marketing Manager, 2020-2023</strong>
-              <div><em>Zhuhai Xiangzhou Qingjie Facial and Skincare Co. Ltd (China)</em></div>
-            <div>
-              Planed and executed online campaign for two skin care stores of a
-              Chinese skincare company. Trained and directed staff to maximize
-              productivity and retention by making a positive environment.
-              Develop positive business relationships with cusstomers.
-            </div>
-          </li>
-          <li>
-            <strong>Online Store Manager, 2015-2020</strong>
-            <div><em>Qingdao Xiangyangzhenhe Clothing Store (China)</em></div>
-            <div>
-              Ran an online store on Alibaba in charge of daily operation.
-              Planed and executed sales promotion. Cultvated strong business
-              relationships with clients. Organised the orders to make sure the
-              products would be sent in time.
-            </div>
-          </li>
+      <!-- Education -->
+      <div class="content">
+        <div id="eduText">
+          <div><h2 class="tooClose">Education</h2></div>
+          <ul class="latest">
+            <li>
+              <div>
+                <strong>Software Development,</strong>
+                <strong>Diploma, 2024.01 - 2025.04</strong>
+              </div>
+              <div>
+                <em
+                  >Southern Alberta Institute of Technology (<a
+                    href="https://www.sait.ca/"
+                    ><abbr title="Southern Alberta Institute of Technology"
+                      >SAIT</abbr
+                    ></a
+                  >) | Calgary, AB</em
+                >
+              </div>
 
-          
-        </ol>
-      </div>
-      <div id="eduText">
-        <div><h2 class="tooClose">Education</h2></div>
-        <ul class="latest">
-          <li class="sublatest">
-            <div  class="sait">
-            <a href="https://www.sait.ca/"
-              ><abbr title="Southern Alberta Institute of Technology">SAIT</abbr
-              ></a
+              <div>
+                <ul class="latestlist">
+                  <li>
+                    Web Development: JavaScript, TypeScript, React,
+                    React-native, Restful, Next.js, HTML, CSS, Tailwind
+                  </li>
+                  <li>Object-Oriented Programming: Java, C#, Python</li>
+                  <li>Database: Oracle Database (PL/SQL)</li>
+                  <li>Earned an A+ in every programming course</li>
+                  <li>
+                    Cover Algorithms, Data Structure, Software Security, Testing
+                    and Team Projects Training
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- Projects -->
+        <div id="proText">
+          <div><h2 class="tooClose">Projects</h2></div>
+
+          <div>
+            <ul class="latest">
+              <!-- Sprout -->
+              <li>
+                <strong>Sprout</strong>
+                <p class="projectLocation"><em>SAIT | Calgary, AB</em></p>
+                <p class="desription">
+                  Worked as part of a team on a plant care management mobile
+                  application (<a
+                    href="https://github.com/nazzaamout/sprout-app/tree/main"
+                    >Sprout</a
+                  >) for my capstone project that was commissioned by Haythem
+                  Shakarchi, owner of Connect Abode (<a
+                    href="https://www.connectabode.ca/"
+                    >Calgary Smart Home and Wi-Fi Services</a
+                  >), integrating real-time sensor data and personalized care
+                  schedule. Built with React-Native, MongoDB, Node.js, and
+                  RESTful API. Primarily contributed to frontend development,
+                  where I self-taught advanced concepts in animation, overcame
+                  significant challenges in unstable environment configuration,
+                  debugging complex issues, and handle workflows with GitHub.
+                </p>
+              </li>
+              <li>
+                <strong>Bookfoo</strong>
+                <p class="projectLocation"><em>SAIT | Calgary, AB</em></p>
+                <p class="desription">
+                  Initiated a book website project using JavaScript, Tailwind,
+                  React, Firebase Authentication, and Firestore Database.
+                  Contributed to frontend, backend and styling as part of the
+                  team. Deployed it on Vercel (<a
+                    href="https://webdev2-bookfoo.vercel.app/"
+                    >bookfoo</a
+                  >)
+                </p>
+              </li>
+              <!-- Shopping List -->
+              <li>
+                <strong>Shopping List</strong>
+                <p class="projectLocation"><em>SAIT | Calgary, AB</em></p>
+                <p class="desription">
+                  Developed a shopping list application using JavaScript,
+                  Tailwind, React, Firebase Authentication, and Firestore
+                  Database as part of the team. Deployed it on Vercel (<a
+                    href="https://cprg306-assignments-puce-five.vercel.app/week-10/shopping-list"
+                    >shopping list</a
+                  >)
+                </p>
+              </li>
+              <!-- Word Tracker -->
+              <li>
+                <strong>Word Tracker</strong>
+                <p class="projectLocation"><em>SAIT | Calgary, AB</em></p>
+                <p class="desription">
+                  Built a word tracker application (.jar) in Java that reads
+                  text files, tracks unique words along with their occurrences
+                  and locations, and generates report file using Binary Search
+                  Tree (<a
+                    href="https://github.com/shawnscgy/WordTracker/tree/main"
+                    >Word Tracker</a
+                  >)
+                </p>
+              </li>
+              <!-- Library -->
+              <li>
+                <strong>Library System</strong>
+                <p class="projectLocation"><em>SAIT | Calgary, AB</em></p>
+                <p class="desription">
+                  Built a library management system using Python, implementing
+                  key functions and overall structure, and overcoming critical
+                  challenges in the menu display for different users (<a
+                    href="https://github.com/shawnscgy/CPRG216_assignment_4"
+                    >Library System</a
+                  >)
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experiences -->
+        <div id="expText">
+          <h2 class="tooClose">Experiences</h2>
+          <ol>
+            <li>
+              <strong>Restaurant Server, 2024</strong>
+              <div><em>David Thompson Resort (Canada)</em></div>
+              <div>
+                Accurately took orders to customer specifications and processed
+                payments. Collaborated with kitchen staff including
+                communicating special requests and dietary restrictions.
+                Provided customer service in a fast-paced environment keeping a
+                clean and organized workplace and ensuring a positive dining
+                experience. A part-time job that was more than two weeks between
+                two semesters.
+              </div>
+            </li>
+            <li>
+              <strong>Online Marketing Manager, 2020-2023</strong>
+              <div>
+                <em
+                  >Zhuhai Xiangzhou Qingjie Facial and Skincare Co. Ltd
+                  (China)</em
+                >
+              </div>
+              <div>
+                Planed and executed online campaign for two skin care stores of
+                a Chinese skincare company. Trained and directed staff to
+                maximize productivity and retention by making a positive
+                environment. Develop positive business relationships with
+                cusstomers.
+              </div>
+            </li>
+            <li>
+              <strong>Online Store Manager, 2015-2020</strong>
+              <div><em>Qingdao Xiangyangzhenhe Clothing Store (China)</em></div>
+              <div>
+                Ran an online store on Alibaba in charge of daily operation.
+                Planed and executed sales promotion. Cultvated strong business
+                relationships with clients. Organised the orders to make sure
+                the products would be sent in time.
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="tooClose"><h2>WebSite</h2></div>
+        <div class="link">
+          <div>
+            <a href="https://github.com/shawnscgy" class="website">GitHub</a>
+            <a
+              href="https://www.linkedin.com/in/shawn-s-95a9052b3/"
+              class="website"
+              >Linkedin</a
             >
-          </div><p>2024.01 - 2025.08, Calgary AB, Diploma: Software Development.</p>
-          </li>
-        </ul>
+          </div>
+          <div>
+            <a href="https://webdev2-bookfoo.vercel.app/" class="website"
+              >BookFoo</a
+            >
+            <a
+              href="https://cprg306-assignments-puce-five.vercel.app/week-10/shopping-list"
+              class="website"
+              >ShoppingList</a
+            >
+          </div>
+        </div>
       </div>
-        <div><h2>WebSite</h2></div>
-      <ul class="link">
-        <div>
-          <a href="https://github.com/shawnscgy" class="website">GitHub</a>
-          <a href="https://www.linkedin.com/in/shawn-s-95a9052b3/" class="website">Linkedin</a>
-        </div>
-        <div>
-          <a href="https://webdev2-bookfoo.vercel.app/" class="website">BookFoo</a>
-          <a href="https://cprg306-assignments-puce-five.vercel.app/week-10/shopping-list" class="website">ShoppingList</a>
-        </div>
-      </ul>
     </main>
     <footer id="footer">
       <div><em>E-mail: shawn.scgy@gmail.com</em></div>
