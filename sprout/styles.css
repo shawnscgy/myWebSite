@@ -5,7 +5,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 header {
-  background-color: rgb(244, 244, 248);
+  background-color: rgb(231, 231, 253);
   word-spacing: 8px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 1px;
@@ -36,22 +36,13 @@ a:hover {
 }
 
 main {
-  background-color: rgb(244, 244, 248);
+  background-color: rgb(231, 231, 253);
   /* padding-right: 30px; */
 }
 
 .poster {
   text-align: center;
-  background-color: rgb(244, 244, 248);
-}
-
-h1 {
-  background-color: rgb(236, 236, 221);
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 4px;
-  margin-top: 0px;
-  padding-top: 16px;
+  background-color: rgb(166, 161, 195);
 }
 
 img {
@@ -66,15 +57,7 @@ footer {
   text-align: center;
   line-height: 23px;
   padding: 20px 20px;
-  background-color: rgb(206, 174, 106);
-}
-.link {
-  text-align: justify;
-  display: flex;
-  flex-direction: row;
-  color: rgb(18, 104, 146);
-  font-weight: bolder;
-  margin-left: 40px;
+  background-color: rgb(166, 161, 195);
 }
 .website {
   display: inline-block;
@@ -105,7 +88,7 @@ a:visited {
   margin-bottom: 20px;
   border-radius: 10px;
   justify-content: center;
-  background-color: rgb(249, 249, 246);
+  background-color: rgb(231, 231, 253);
   padding: 20px;
 }
 a.mainLink {
@@ -135,4 +118,18 @@ a.mainLink {
   margin-bottom: 30px;
   margin-top: -2px;
   color: rgb(18, 104, 146);
+}
+.website {
+  display: inline-block;
+  margin-bottom: 12px;
+  margin-right: 120px;
+  min-width: 100px;
+}
+.link {
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+  color: rgb(18, 104, 146);
+  font-weight: bolder;
+  margin-left: 40px;
 }
