@@ -86,10 +86,7 @@ a:visited {
   display: flex;
   width: '100%';
   margin-bottom: 20px;
-  border-radius: 10px;
-  justify-content: center;
   background-color: rgb(231, 231, 253);
-  padding: 20px;
 }
 a.mainLink {
   color: black;
@@ -115,9 +112,8 @@ a.mainLink {
 .videoDesc {
   font-weight: bold;
   padding-left: 30px;
-  margin-bottom: 30px;
-  margin-top: -2px;
-  color: rgb(18, 104, 146);
+  color: rgb(18, 104, 146, 0.9);
+  text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.1);
 }
 .website {
   display: inline-block;
@@ -132,4 +128,7 @@ a.mainLink {
   color: rgb(18, 104, 146);
   font-weight: bolder;
   margin-left: 40px;
+}
+.video {
+  height: 400px;
 }
